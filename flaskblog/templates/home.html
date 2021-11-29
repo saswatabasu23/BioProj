@@ -1,7 +1,7 @@
 {% extends "layout.html" %}
 {% block content %}
-    {% for post in posts %}
-        <article class="media content-section">
+{% for post in posts %}
+<!--   <article class="media content-section">
           <div class="media-body">
             <div class="article-metadata">
               <a class="mr-2" href="#">{{ post.author }}</a>
@@ -10,6 +10,28 @@
             <h2><a class="article-title" href="#">{{ post.title }}</a></h2>
             <p class="article-content">{{ post.content }}</p>
           </div>
-        </article>
-    {% endfor %}
+        </article> -->
+
+
+
+
+{% endfor %}
+<h1>Team 10</h1>
+<h2>Abhinav Jaiswal (20BCE2624) </h2>
+<h2> Vanshit Kandoi (20BCE2667) </h2>
+<h2> Sneha Jayshri (20BCE2673)</h2>
+<h2> Saswata Basu (20MID0035)</h2>
+<div class="pics">
+  <div>
+
+    <img src="../static/imgs/1.png" alt="">
+    <img src="../static/imgs/2.png" alt="">
+  </div>
+
+  <div>
+    <img src="../static/imgs/3.jpeg" alt="">
+    <img src="../static/imgs/4.jpeg" alt="">
+  </div>
+
+</div>
 {% endblock content %}
